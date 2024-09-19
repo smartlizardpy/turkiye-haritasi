@@ -7,7 +7,7 @@ function svgturkiyeharitasi() {
   element.addEventListener(
     'mouseover',
     function (event) {
-      if (event.target.tagName === 'path' && event.target.parentNode.id !== 'guney-kibris') {
+      if (event.target.tagName === 'path' && event.target.parentNode.id !== 'guney-kibris') {æ
         info.innerHTML = [
           '<div>',
           event.target.parentNode.getAttribute('data-iladi'),
